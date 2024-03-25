@@ -15,12 +15,13 @@ body {
 }
 
 
+
 .header, .footer, .sect1 {
-  background: #1F2937 ;
-  color: #f9faf8;
   display: flex;
   justify-content: space-between;
   padding: 14px;
+  background: #1F2937 ;
+  color: #f9faf8;
 }
 
 
@@ -64,11 +65,11 @@ a {
 }
 
 .headerlogo {
+  font-size: 24px;
   font-weight: 800;
   margin-left: 70px;
   display: flex;
   flex-direction: column;
-  justify-content: cen
 }
 
 .sect1left {
@@ -90,13 +91,14 @@ img {
   display: flex;
   margin-bottom: 50px;
   margin-right: 70px;
+  border: 3px solid #3882f6;
 }
 
 button {
   cursor: pointer;
-  padding: 3px 16px;
+  padding: 6px 22px;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: bold;
   color: white;
   background: #3882F6;
@@ -104,8 +106,106 @@ button {
   margin-top: 5px;
 }
 
-button.topbutton {
+.topbutton {
   border: none;
+}
+.sect2title, .content {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  flex-direction: row;
+  color: #1f2937;
+}
+
+.sect2title {
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.text {
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 80px;
 }
 
 
+.info > img {
+  margin-bottom: 6px;
+  margin-right: 16px;
+  margin-left: 16px;
+  height: 120px;
+  width: 120px;
+  gap: 20px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+div.info {
+  max-width: 152px;
+  max-height: 220px;
+}
+
+.sect3 {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quotecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 200px;
+  color: #1f2937;
+}
+div.quote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style:italic;
+  padding-right: 0;
+}
+
+#quoteref {
+  font-weight: 900;
+  text-align: right;
+  display: block;
+  padding-right: 30px;
+}
+
+.block {
+  display: flex;
+  background-color: #3882F6;
+  margin: 80px 150px;
+  color: white;
+  border-radius: 8px;
+}
+
+.sect4text {
+  font-weight: 900;
+  margin: 40px 80px;
+}
+
+.sect4text > div {
+  font-weight: 100;
+  font-size: 12px;
+}
+
+
+button.s4signup{
+  margin-left: 100px;
+  margin-top: 40px;
+  border: 1px solid white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
